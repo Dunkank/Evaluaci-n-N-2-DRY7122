@@ -38,8 +38,8 @@ def calculate_fuel(distance_km, fuel_efficiency_l_per_100km=8.5):
 # Solicitar entrada del usuario
 def main():
     while True:
-        origen = input("Ciudad de Origen (o 'q' para salir): ")
-        if origen.lower() == 'q':
+        origen = input("Ciudad de Origen (o 's' para salir): ")
+        if origen.lower() == 's':
             break
         destino = input("Ciudad de Destino: ")
 
